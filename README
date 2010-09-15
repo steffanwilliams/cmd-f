@@ -1,0 +1,17 @@
+Find on page for Mobile Safari.
+
+Features
+
+- It reports how many results are found for your search keyword, and allows you to easily step through them.
+- Text that is contained within a hidden element (display:none or visibility:hidden) are not shown; it highlights only what you're able to see.
+- Native-ish look and feel for both the iPad and iPhone.
+- It doesn't break the content of the page you search on, so multiple searches can be made without any issue.
+
+
+Known issues
+
+Text within different nodes cannot be highlighted together — if part of a word is bold, it is considered a different word in terms of the search.
+
+Example: JavaScript
+
+The word "JavaScript" above is considered three words — "Java", "Scr" and "ipt", as part of the text is within a <strong> tag. As such, it won't get highlighted in a search for "JavaScript".
